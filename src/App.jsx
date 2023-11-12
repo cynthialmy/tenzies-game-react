@@ -25,6 +25,10 @@ function App() {
 				return { ...d, value: Math.floor(Math.random() * 6) + 1 };
 			});
 		});
+		if (tenzies) {
+			setTenzies(false);
+			setDice(allNewDice());
+		}
 	}
 
 	function holdDice(id) {
