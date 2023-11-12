@@ -43,3 +43,14 @@ main {
 .die-num {
 	font-size: 2rem;
 }
+
+.button-roll {
+	margin-top: 2rem;
+	background-color: #5035ff;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	font-size: 1rem;
+	cursor: pointer;
+}
